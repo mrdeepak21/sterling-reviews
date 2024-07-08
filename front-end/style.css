@@ -148,6 +148,10 @@
   grid-column: 2;
    }
 
+   .person-slide{
+    overflow: hidden;
+   }
+
  .person-slide img{
   display: inline-block;
   border-radius: 50%;
