@@ -9,7 +9,7 @@
 
  add_action( 'wp_enqueue_scripts', function () {
   wp_enqueue_style( 'testimonials', plugins_url( '/front-end/style.css' , __FILE__ ), false, '1.0', 'all');
-  // wp_enqueue_style( 'font-awesome-6.4', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',false,'6.4','all');
+  wp_enqueue_style( 'font-awesome-6.4', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',false,'6.4','all');
   if(is_front_page()) {
   wp_enqueue_script('testimonials',plugins_url( '/front-end/script.js', __FILE__ ), false,'1.0', true );}
 } );
@@ -47,19 +47,19 @@ $count ++;
         <div class="person-slider">
           <div class="person-slides">
           <div class="person-slide slide-0">
-    <img src="https://dummyimage.com/200x200/000/fff.jpg" alt="Sterling Google Reviews">
+    <img src="https://sterlingwpcobra.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/05/09091439/quotes-face-5.png" alt="Sterling Google Reviews">
   </div>
           <div class="person-slide slide-1">
-    <img src="https://dummyimage.com/200x200/000/fff.jpg" alt="Sterling Google Reviews">
+    <img src="https://sterlingwpcobra.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/05/09091441/quotes-face-4.png" alt="Sterling Google Reviews">
   </div>
           <div class="person-slide slide-2">
-    <img src="https://dummyimage.com/200x200/000/fff.jpg" alt="Sterling Google Reviews">
+    <img src="https://sterlingwpcobra.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/05/09091441/quotes-face-3.png" alt="Sterling Google Reviews">
   </div>
           <div class="person-slide slide-3">
-    <img src="https://dummyimage.com/200x200/000/fff.jpg" alt="Sterling Google Reviews">
+    <img src="https://sterlingwpcobra.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/05/09091441/quotes-face-1.png" alt="Sterling Google Reviews">
   </div>
           <div class="person-slide slide-4">
-    <img src="https://dummyimage.com/200x200/000/fff.jpg" alt="Sterling Google Reviews">
+    <img src="https://sterlingwpcobra.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/05/09091443/quotes-face-2.png" alt="Sterling Google Reviews">
   </div>
           </div>
         </div>
