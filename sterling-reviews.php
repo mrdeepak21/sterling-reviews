@@ -52,8 +52,8 @@ add_shortcode( 'google_reviews_sterling', function()
         <div class="google-col-1">
             <div class="left">
             <div class="nav-container" style="text-align: center;">
-                <button id="prev" class="nav">&#8592;</button>
-                <button id="next" class="nav">&#8594;</button>
+                <span id="prev" class="nav">&#8592;</span>
+                <span id="next" class="nav">&#8594;</span>
                 <span class="number" id="number"></span>
               </div>
             <div class="wrapper">
