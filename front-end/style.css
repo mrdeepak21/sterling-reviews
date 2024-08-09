@@ -1,6 +1,5 @@
 .g-reviews{
   overflow: hidden;
-  background-color: #f6f6f6;
   padding: 10px;
   position: relative;
   min-height: 600px;
@@ -88,7 +87,7 @@
 .g-reviews  .review{
   font-size: 1.63em;
   font-weight: 300;
-  font-family: var(--e-global-typography-primary-font-family ), Sans-serif;
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
      line-height:1.5
  }
 
