@@ -23,6 +23,7 @@
 .g-reviews .google-col-2{
   min-width: 30em;
   width: 58dvw;
+  position: relative;
 }
 
 .g-reviews .wrapper {
@@ -91,6 +92,12 @@
   font-weight: 300;
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
      line-height:1.5
+ }
+
+ .g-reviews .content-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
  }
 
 .g-reviews .name{
