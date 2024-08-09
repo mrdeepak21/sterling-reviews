@@ -22,7 +22,7 @@
 
 .g-reviews .google-col-2{
   min-width: 30em;
-  max-width: min-content;
+  width: 58dvw;
 }
 
 .g-reviews .wrapper {
