@@ -77,6 +77,10 @@
   align-items: center;
 }
 
+.g-reviews .nav-container span{
+  margin: 0 10px;
+}
+
 .g-reviews .nav {
   background: transparent;
   border: none;
