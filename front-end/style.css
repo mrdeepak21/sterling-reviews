@@ -36,17 +36,22 @@
 }
 
 .g-reviews .item {
-  width: 25px;
-  height: 25px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
-  background-color: #e1aa8d;
+  background-color: #ffffff;
   position: relative;
   z-index: 2;
   cursor: pointer;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .g-reviews .item.active {
-  background-color: #db6926;
+  background-color: var(--e-global-color-1a239e5);
 }
 
 .g-reviews svg {
@@ -62,7 +67,7 @@
 
 .g-reviews .circle { 
   fill: none;
-  stroke:#d2d1cf;
+  stroke:transparent;
   stroke-width: 2;
   stroke-miterlimit:1;
 }

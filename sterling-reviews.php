@@ -10,9 +10,11 @@
 
  add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_style( 'testimonials', plugins_url( '/front-end/style.css' , __FILE__ ), false, '1.0', 'all');
+    if(is_front_page()) {
     wp_enqueue_script('gsap',"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js", false,'1.0',true);
     wp_enqueue_script('motionpath-plugin-gsap',"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.min.js", false,'1.0',true);
     wp_enqueue_script('testimonials',plugins_url( '/front-end/script.js', __FILE__ ), array('jquery'),'1.0',true);
+    }
     wp_enqueue_style( 'font-awesome-6.4', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',false,'6.4','all');
 } );
 

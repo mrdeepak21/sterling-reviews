@@ -113,8 +113,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function createDot() {
+    const iconLink = [
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/insurance.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/apple-1.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/circle-dollar.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/train.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/gift-box-heart.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/heart-care.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/pig-piggy-bank.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/insurance.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/apple-1.svg",
+        "http://dev.sterlingadministration.com/wp-content/uploads/2024/07/circle-dollar.svg"
+    ]
     slides.forEach((item, i) => {
         const dot = document.createElement('div');
+        const icons = document.createElement('img');
+        icons.src=iconLink[i];
+        dot.appendChild(icons);
         dot.classList.add('item');
         i === 0 ? dot.classList.add('active') : '';
         dotsContainer.appendChild(dot);
