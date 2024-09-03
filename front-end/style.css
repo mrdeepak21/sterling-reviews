@@ -51,7 +51,7 @@
 }
 
 .g-reviews .item.active {
-  border-radius: var(--e-global-color-1a239e5);
+  border: 2px solid var(--e-global-color-1a239e5);
 }
 
 .g-reviews svg {
