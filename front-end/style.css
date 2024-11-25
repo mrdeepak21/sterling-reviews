@@ -17,6 +17,7 @@
 .g-reviews .google-col-1{
   width: 20em;
   height: 100%;
+  overflow: hidden;
 }
 
 .g-reviews .google-col-2{
